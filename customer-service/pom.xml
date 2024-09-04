@@ -17,9 +17,8 @@
 		<java.version>21</java.version>
 		<serenity.version>4.0.21</serenity.version>
 		<maven.plugin>3.2.1</maven.plugin>
-		<sonar.host.url>http://192.168.63.30:9000</sonar.host.url>
-         <sonar.login>squ_93dead83afa50ba431715f37851c9b7e66882671</sonar.login>
-        <sonar.projectKey>myProj</sonar.projectKey>
+		<sonar.host.url>http://127.0.1.1:9000</sonar.host.url>
+        <sonar.projectKey>test-proj</sonar.projectKey>
         <sonar.java.binaries>${project.build.directory}/classes</sonar.java.binaries>
 	</properties>
 	<dependencies>
